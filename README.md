@@ -1,4 +1,4 @@
-# magnum
+# Magnum CPM
 
 > A PowerSchool custom page management tool
 
