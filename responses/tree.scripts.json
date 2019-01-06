@@ -1,0 +1,3328 @@
+{
+  "folder": {
+    "pathToParent": null,
+    "id": 121,
+    "custom": false,
+    "children": true,
+    "text": "scripts",
+    "subFolders": [
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "localization",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "ExportManager.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "i18n.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "ImportManager.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "ImportResultsManager.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "ImportStatusManager.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 802,
+        "custom": false,
+        "children": true,
+        "text": "lib",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "jquery-i18n",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "grid.locale-bg.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-bg1251.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-cat.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-cs.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-de.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-dk.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-el.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-en.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-fa.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-fi.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-fr.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-is.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-it.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-jp.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-nl.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-no.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-pl.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-pt-br.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-pt.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-ru.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-sp.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-sv.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-tr.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-ua.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "dist",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "coteach",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "DateInterval.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "JqGridCustomDateWidget.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "SectionTeacherJqGrid.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "TermSelector.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "handlebars",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "hbs-0.4.0.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "hbs-i18nprecompile-0.4.0.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "json2.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "require-handlebars.1.0.0.beta.4.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "require-handlebars.1.0.0.rc3.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "amdTestCase",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "amdTestCase.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "coursemanagement",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "availability.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "editavailability.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "edityearsavailability.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "schedule_course_conflicts.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "unavailablemastercourselist.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "viewavailability.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "psCoursePicker",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "psCoursePicker-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "psCoursePicker.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 691,
+        "custom": true,
+        "children": true,
+        "text": "powermenu-plus-v16",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 701,
+        "custom": true,
+        "children": true,
+        "text": "powermenu-plus-v17",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 711,
+        "custom": true,
+        "children": true,
+        "text": "powermenu-plus-v18",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 761,
+        "custom": true,
+        "children": true,
+        "text": "powermenu-plus-v19",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 321,
+        "custom": true,
+        "children": true,
+        "text": "activities-manager",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 32095,
+            "text": "Activities.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 32087,
+            "text": "filters.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 32077,
+            "text": "index.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 331,
+        "custom": true,
+        "children": true,
+        "text": "admissions",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 30634,
+            "text": "admissions.css",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30637,
+            "text": "datestamp.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30648,
+            "text": "validation.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30652,
+            "text": "admin_view_timestamp.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30641,
+            "text": "reveal.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30647,
+            "text": "timestamp.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30658,
+            "text": "student-list.html",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30645,
+            "text": "AdmissionsModule.v1.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "sections",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "sections_term_change_override.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "recordexchange",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "i18n.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "RecordExchangeEnabled.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "StudentLocator.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "course-prereqs",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "CoursePreReq.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "CourseRequestPopup.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "CourseRequests.css",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "CourseRequests.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "DeptCoursePanel.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "EnclosurePanel.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "NewCourse.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "PrereqPopupNotes.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "RuleDefinitionDialog.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "RuleNode.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "RuleNodeXML.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "RulePrototypePanel.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "RulesBuilder.css",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "RulesBuilder.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "RuleTypeLibrary.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "Rule_Course_Dragger.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "SingleRulePanel.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "SRP-EP-DragDrop.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "UserData.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "struts",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "hbs",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "courseequivalency",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "courseequivalency.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "gradereplacementpolicy",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "gradeReplacementPolicy.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 162,
+        "custom": true,
+        "children": true,
+        "text": "pika",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 463,
+            "text": "jquery.pikachoose.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 461,
+            "text": "css3.css",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 462,
+            "text": "jquery.jcarousel.min.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "iui",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "batchmodify",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "dynamicElementLDVRuleLookUp.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "template",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 391,
+        "custom": false,
+        "children": true,
+        "text": "components",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "massdata",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "main-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "psReloader",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "psReloader-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "psReloader.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "customization",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "roles",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "roles.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "students",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "esg.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 381,
+        "custom": true,
+        "children": true,
+        "text": "access-token",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 5678,
+            "text": "accessTokenModule.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "seatingchart",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "main-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "whiteboard",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "main-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "main.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "widgets",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 122,
+        "custom": false,
+        "children": true,
+        "text": "yui",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "security",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "certificate_mgmt.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "copyperms.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "fieldlevelsecurity.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "pagelist.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "pageperms.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 791,
+        "custom": true,
+        "children": true,
+        "text": "docbox_v1",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 31303,
+            "text": "hasher.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 31304,
+            "text": "docboxModule.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "teachers",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "AdminAccessSchoolsRolesController.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "StaffCheckDuplicatesJqGrid.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "TeacherAccessSchoolsJqGrid.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "backbone",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "amd-backbone-dev-0.9.1.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "amd-backbone-min-0.9.1.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "backbone-dev-0.9.10.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "backbone-min-0.9.10.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 771,
+        "custom": true,
+        "children": true,
+        "text": "powermenu-plus-v20",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 779,
+        "custom": true,
+        "children": true,
+        "text": "powermenu-plus-v21",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 31185,
+            "text": "powermenu.css",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 31196,
+            "text": "client-creds.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 681,
+        "custom": true,
+        "children": true,
+        "text": "ecc-grader-v01",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 29781,
+            "text": "filters.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 29771,
+            "text": "tailwind.css",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 29793,
+            "text": "EccGrader.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 29777,
+            "text": "index.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "storedgrades",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "storedgrades.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "mobile",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "detectMobileWebkit.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "iuix.css",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "iuix.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "mobile.css",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "ps-device-detection.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "ps-iui-min.css",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "ps-iui-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "ps-iui.css",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "ps-iui.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 721,
+        "custom": false,
+        "children": true,
+        "text": "health",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "health_common.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "screening_table.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "health-vaccineList.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "incell_popup_management.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "markitup",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "jquery.markitup.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "studentmobility",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "custom-jquery-ui.css",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "CustomFieldMapping-commons.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "CustomFieldMapping-dropdown.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "CustomFieldMapping.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "schoolMapping.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 489,
+        "custom": true,
+        "children": true,
+        "text": "rocket.chat",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 30969,
+            "text": "notify.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "psAccordionWizard",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "psAccordionWizard-min.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "psAccordionWizard.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "underscore",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "amd-underscore-dev-1.3.1.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "amd-underscore-min-1.3.1.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "underscore-dev-1.4.4.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "underscore-dev-1.8.3.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "underscore-min-1.4.4.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "underscore-min-1.8.3.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "underscore.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "jqgrid-i18n",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "grid.locale-bg.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-bg1251.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-cat.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-cn.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-cs.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-da.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-de.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-el.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-en.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-es.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-fa.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-fi.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-fr.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-gl.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-he.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-hu.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-is.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-it.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-ja.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-nl.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-no.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-pl.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-pt-br.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-pt.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-ro.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-ru.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-sk.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-sv.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-tr.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "grid.locale-ua.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 661,
+        "custom": true,
+        "children": true,
+        "text": "ecc-grader-v1",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "docattach",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "docattach.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "filterdata.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "k12drive.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "metadata.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "s3.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "UnattachedDocument.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "util.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "viewmetadata.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "jquerytree",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "jquery.cookie.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "jquery.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "jquery.treeview.css",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "jquery.treeview.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 751,
+        "custom": true,
+        "children": true,
+        "text": "re-enroll-v5",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 756,
+        "custom": true,
+        "children": true,
+        "text": "re-enroll-v6",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": 30947,
+            "text": "ReEnroll.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30934,
+            "text": "directives.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30935,
+            "text": "index.js",
+            "custom": true,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": 30952,
+            "text": "styles.css",
+            "custom": true,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "requirejs",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "domReady.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "require.debug.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          },
+          {
+            "id": null,
+            "text": "require.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 373,
+        "custom": true,
+        "children": true,
+        "text": "docbox",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": 621,
+        "custom": true,
+        "children": true,
+        "text": "re-enroll-v2",
+        "subFolders": [],
+        "pages": []
+      },
+      {
+        "pathToParent": null,
+        "id": null,
+        "custom": false,
+        "children": true,
+        "text": "attendance",
+        "subFolders": [],
+        "pages": [
+          {
+            "id": null,
+            "text": "attendanceStatus.js",
+            "custom": false,
+            "active": true,
+            "binary": false
+          }
+        ]
+      },
+      {
+        "pathToParent": null,
+        "id": 741,
+        "custom": true,
+        "children": true,
+        "text": "re-enroll-v3",
+        "subFolders": [],
+        "pages": []
+      }
+    ],
+    "pages": [
+      {
+        "id": null,
+        "text": "psTextWidget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "ImageLibrary.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_code_comment.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_elements_table.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_actions.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "timeentry_widget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_dragdrop-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "sas_edit.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "quickimport_400_schfldchk.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-ui-1.11.2.custom.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident-list-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "singleField_translation.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "scheduler.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "submitprogress-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psNumWidget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-tmpl.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "DirtyState.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_jsobjects_attributes.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "att-singleday-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psTableFilter.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "datejswidget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "PasswordStrength.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "snwpProxy.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "checkbox_util.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "attendance-grid.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "editable-grid.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "sublogin.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "datatable.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "tooltips.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "editable-jqgrid-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_participant.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "signin-scripts.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "powerreporting-queue.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "XML.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "batch_translation.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_dragdrop.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident-list-min.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "inform-settings.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "selectorwidget.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_log-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "div_popup.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "SpecialProgramsList.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "userCommentsRecord_api.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "glowbutton-min.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "diff.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "att-singleday.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_search_participants.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "glowbutton.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "datatable-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident-code-config-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "KeyedDataView.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "GraduationPlanner.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "legacyValidationListener.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psSchoolPrefPicker.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "http_errors.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "helpLinksMenu.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_detail_commons.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psValidationFunctions.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "pseudo-grid-widget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psSchoolPicker.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "KeyedDataSource.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "training_videos.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "treeview.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "DepartmentAutoFill.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "StudentSummerSchoolInfo.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-1.9.1.min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-migrate-ps.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "resizepanel.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-migrate-1.2.1.min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "powerreporting-reportcategories.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_behavior.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "analytics.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery.jqGrid.min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "div_popup-min.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "popupcal-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "sas_purge.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "tlistCollectionTable.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery.jqGrid.src.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": 25104,
+        "text": "errorHandler.js",
+        "custom": true,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "search_autocomplete.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "checkbox_Guardian.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "EditObjReportObj.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_treeview-min.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "div_popup.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-ui-1.11.2.custom.min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "classroster_common.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psbehaviors.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "AcademicPlanner.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_search_participants-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "fontscripts.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "div_popup-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "contact.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_treeview-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_utils.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psDialog.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident-details-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "submitprogress.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "sas_list.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psDateWidget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "date.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident-type-config.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "resizepanel.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "powerreporting-queue.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "SpecialProgramsBalancing.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "parentaccess_modal_dialog.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "calendar_select.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "CourseAutoFill.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "editable-grid-print.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psDateValidate.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "DataTableFilter.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "datejswidgetscripts.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "ethnicityFER_commons.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident-details-min.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": 25101,
+        "text": "moment.js",
+        "custom": true,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "SimpleLookup.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "sortableTable.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psScrollableDisplayUtils.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_global.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "selectorwidget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "submitprogress.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-2.1.3.min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-2.1.3.min.map",
+        "custom": false,
+        "active": true,
+        "binary": true
+      },
+      {
+        "id": null,
+        "text": "Tree.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psFilePicker.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_validation.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "glowbutton.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_attributes.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "PSSerializer.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident-code-config.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "quickimport_400_funcs.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psRadioDiv.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "ManageExtendedSchema.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "SortStack.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jqgrid-locale.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "dom_util.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psDateWidgetHighlight.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "calendar_select.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "force_IEHorzWindowScrolling.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "tlistCustomization.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "glowbutton-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psDirtyStateController.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_object.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "popup.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "studentprogrambalancingreport.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "keep-alive.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psRequired.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psSpecialValidate.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psTextMaskAdministration.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_log.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psTableToGridWidget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psSideBySideGridWidget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psFormValidate.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psUnloadHandler.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "ajaxprogress.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "feedback_api.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_global-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_injury.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psMultiButton.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_popup.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery.timeentry_ps.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "yui-support.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "popupcal.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_treeview.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-2.1.3.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident-type-config-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "attendance-grid-min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "editable-jqgrid.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "treeview.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "formsave_msg.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery.cookie.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "submitprogress-conditional.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "psComboBoxWidget.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "datatable.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-migrate-1.1.1.min.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "commonscripts.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "popup.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "incident_treeview.css",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "scrollbarUtils.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "powerreporting-preferences.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "jquery-migrate-1.2.1.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      },
+      {
+        "id": null,
+        "text": "datejswidgethandler.js",
+        "custom": false,
+        "active": true,
+        "binary": false
+      }
+    ]
+  },
+  "path": "/scripts",
+  "maxDepth": 1,
+  "restrictedAccess": false
+}

@@ -1,0 +1,23 @@
+{
+  "activeCustomContentId": 31643,
+  "activeCustomText": "'use strict'\n\ndefine(require => {\n  const angular = require('angular')\n  require('components/shared/index')\n\n  return angular.module('EccGraderModule', ['powerSchoolModule'])\n})\n",
+  "draftCustomContentId": null,
+  "draftCustomText": null,
+  "builtInText": "Built in file //scripts/ecc-grader-v01/EccGrader.js is not available.",
+  "isCustom": true,
+  "hasDraft": false,
+  "loadFolderInfo": false,
+  "messageKeyMap": {},
+  "path": "//scripts/ecc-grader-v01/EccGrader.js",
+  "returnMessage": null,
+  "selectedVersionTextContent": null,
+  "versionAssetContentIds": [
+    31643
+  ],
+  "versionStatuses": [
+    "Active"
+  ],
+  "versionTimestamps": [
+    "09/11/2018, 01:25:57PM"
+  ]
+}
