@@ -3,6 +3,31 @@
 `GET /ws/cpm/tree?maxDepth=1&path=%2F&rnd=6223694639`
 `GET /ws/cpm/tree?maxDepth=1&path=%2Fscripts&rnd=1747568438`
 
+```js
+$j.ajax({
+  method: 'get',
+  url: '/ws/cpm/tree',
+  data: {
+    path: '/',
+    rnd: 9529784006,
+    maxDepth: 99
+  },
+  success: (data) => {
+    const print = (dir, parent = '') => {
+      console.log(`${parent}/${dir.text}`)
+
+      if (dir.subFolders) {
+        dir.subFolders.forEach(sub => {
+          print(sub, `${parent}/${dir.text}`)
+        })
+      }
+    }
+
+    print(data.folder)
+  }
+})
+```
+
 ## Get file
 
 `GET /ws/cpm/builtintext?LoadFolderInfo=false&path=%2F%2Fscripts%2Fpowermenu-plus-v21%2Fclient-creds.js&rnd=9820389028`
@@ -121,3 +146,11 @@ Responses
 { "returnMessage": "The folder was deleted sucessfully" }
 ```
 
+## Delete file
+
+`POST /ws/cpm/deleteFile`
+
+Form Data
+```
+path: //scripts/re-enroll-v2/ab/asdf.html
+```
