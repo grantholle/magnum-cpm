@@ -1,8 +1,8 @@
 .loader {
-  @apply absolute w-screen h-screen;
+  @apply fixed pin z-50 bg-black;
 }
 
 .loader svg {
   @apply absolute pin m-auto;
-  stroke: config('colors.blue');
+  stroke: config('colors.blue-light');
 }
