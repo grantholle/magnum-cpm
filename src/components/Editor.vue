@@ -2,7 +2,7 @@
   <main>
     <loader :show="showLoader"></loader>
 
-    <tree></tree>
+    <tree :tree="tree"></tree>
   </main>
 </template>
 
@@ -19,22 +19,24 @@ export default {
   },
   data () {
     return {
-      showLoader: false
+      showLoader: true
     }
   },
   methods: {
     ...mapActions([
       'fetchTree'
-    ]),
+    ])
   },
   computed: {
     ...mapGetters([
-      'tree'
     ]),
-    ...mapState([])
+    ...mapState([
+      'tree'
+    ])
   },
-  created () {
-    this.fetchTree()
+  async created () {
+    await this.fetchTree()
+    this.showLoader = false
   }
 }
 </script>

@@ -1,17 +1,35 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
+
+// Test data -- TODO: DELETE
 import tree from '../../responses/tree.json'
 
 Vue.use(Vuex)
 
 const state = {
-  tree: {}
+  tree: {},
+  expandedDirs: window.localStorage.getItem('expandedDirs')
 }
 
 const mutations = {
   setTree (state, tree) {
     state.tree = tree.folder
+  },
+  expandFolder (state, { path, expanded }) {
+    if (!state.expandedDirs) {
+      state.expandDirs = []
+    }
+
+    const index = state.expandDirs.indexOf(path)
+
+    if (expanded && index === -1) {
+      state.expandDirs.push(path)
+    } else if (!expanded && index !== -1) {
+      Vue.delete(state.expandDirs, index)
+    }
+
+    window.localStorage.setItem('expandedDirs', state.expandDirs)
   }
 }
 
@@ -35,8 +53,9 @@ const actions = {
 
 const getters = {
   tree: state => {
-    const buildFullPath = (dir, parent = '/') => {
+    const buildFullPath = (dir, parent = '') => {
       dir.fullPath = `${parent}/${dir.text}`
+      dir.expanded = parent === ''
 
       if (dir.pages) {
         dir.pages.forEach(page => {
@@ -53,7 +72,9 @@ const getters = {
       return dir
     }
 
-    return buildFullPath(state.tree.folder)
+    // Already nest inside of web_root
+    // return first(buildFullPath(state.tree))
+    return state.tree
   }
 }
 
