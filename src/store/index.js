@@ -1,41 +1,64 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
+import { sortBy } from 'lodash'
 
 // Test data -- TODO: DELETE
 import tree from '../../responses/tree.json'
+
+const expandedDirs = JSON.parse(window.localStorage.getItem('expandedDirs'))
 
 Vue.use(Vuex)
 
 const state = {
   tree: {},
-  expandedDirs: window.localStorage.getItem('expandedDirs')
+  expandedDirs: expandedDirs === null ? [] : expandedDirs,
+  loading: true
 }
 
 const mutations = {
   setTree (state, tree) {
-    state.tree = tree.folder
+    const sort = dir => {
+      if (dir.pages) {
+        dir.pages = sortBy(dir.pages, 'text')
+      }
+
+      if (dir.subFolders) {
+        dir.subFolders = sortBy(dir.subFolders, 'text').map(sort)
+      }
+
+      return dir
+    }
+    // Need to sort sub dirs and folders
+    state.tree = sort(tree.folder)
   },
   expandFolder (state, { path, expanded }) {
     if (!state.expandedDirs) {
-      state.expandDirs = []
+      state.expandedDirs = []
     }
 
-    const index = state.expandDirs.indexOf(path)
+    const index = state.expandedDirs.indexOf(path)
 
     if (expanded && index === -1) {
-      state.expandDirs.push(path)
+      state.expandedDirs.push(path)
     } else if (!expanded && index !== -1) {
-      Vue.delete(state.expandDirs, index)
+      Vue.delete(state.expandedDirs, index)
     }
 
-    window.localStorage.setItem('expandedDirs', state.expandDirs)
+    window.localStorage.setItem('expandedDirs', JSON.stringify(state.expandedDirs))
+  },
+  toggleLoading (state, loading) {
+    const isLoading = typeof loading === 'boolean' ? loading : !state.loading
+
+    state.loading = isLoading
+    console.log(state.loading)
   }
 }
 
 const actions = {
   async fetchTree ({ commit }, path = '/') {
-    commit('setTree', tree)
+    commit('toggleLoading', true)
+
     // const depth = path === '/' ? 99 : 1
     // const rnd = Math.random() * 1E16
     // const params = {
@@ -48,6 +71,9 @@ const actions = {
 
     // const { data } = axios.get('/ws/cpm/tree', params)
     // commit('setTree', data)
+    setTimeout(() => {
+      commit('setTree', tree)
+    }, 0)
   }
 }
 

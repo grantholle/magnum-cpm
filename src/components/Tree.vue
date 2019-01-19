@@ -1,7 +1,8 @@
 <template>
-  <section>
+  <section class="font-light py-4">
     <tree-item
       :item="tree"
+      :force-expand="true"
       @folderClicked="folderContext"
     ></tree-item>
 
@@ -16,7 +17,7 @@
 
 <script>
 import TreeItem from './TreeItem'
-import { mapActions, mapState } from 'vuex'
+import { mapActions, mapState, mapMutations } from 'vuex'
 import VueSimpleContextMenu from 'vue-simple-context-menu'
 
 export default {
@@ -44,12 +45,20 @@ export default {
     }
   },
   methods: {
+    ...mapMutations([
+      'toggleLoading'
+    ]),
     folderOptionClicked (event) {
       console.log(event)
     },
     folderContext (event, item) {
       this.$refs.folderContextMenu.showMenu(event, item)
     }
+  },
+  updated () {
+    this.$nextTick(() => {
+      this.toggleLoading(false)
+    })
   }
 }
 </script>

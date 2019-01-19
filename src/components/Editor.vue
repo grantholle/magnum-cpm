@@ -1,6 +1,6 @@
 <template>
   <main>
-    <loader :show="showLoader"></loader>
+    <loader :show="loading"></loader>
 
     <tree :tree="tree"></tree>
   </main>
@@ -9,7 +9,7 @@
 <script>
 import Loader from './Loader'
 import Tree from './Tree'
-import { mapActions, mapState, mapGetters } from 'vuex'
+import { mapActions, mapState, mapGetters, mapMutations } from 'vuex'
 
 export default {
   name: 'Editor',
@@ -19,7 +19,6 @@ export default {
   },
   data () {
     return {
-      showLoader: true
     }
   },
   methods: {
@@ -31,7 +30,8 @@ export default {
     ...mapGetters([
     ]),
     ...mapState([
-      'tree'
+      'tree',
+      'loading'
     ])
   },
   async created () {

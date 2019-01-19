@@ -27,7 +27,7 @@
 
 <script>
 import TreeItem from './TreeItem'
-import { mapMutations } from 'vuex'
+import { mapMutations, mapState } from 'vuex'
 
 export default {
   name: 'TreeItem',
@@ -42,11 +42,15 @@ export default {
     parent: {
       type: String,
       default: ''
+    },
+    forceExpand: {
+      type: Boolean,
+      default: false
     }
   },
   data () {
     return {
-      expanded: false
+      localExpanded: false
     }
   },
   methods: {
@@ -57,18 +61,25 @@ export default {
       this.$emit('folderClicked', this.item)
     },
     folderClick () {
-      this.expanded = !this.expanded
+      this.localExpanded = !this.localExpanded
 
-      console.log(this.fullPath, this.expanded)
       this.expandFolder({
         path: this.fullPath,
-        expanded: this.expanded
+        expanded: this.localExpanded
       })
     }
   },
   computed: {
+    ...mapState([
+      'expandedDirs'
+    ]),
     fullPath () {
       return `${this.parent}/${this.item.text}`
+    },
+    expanded () {
+      // console.log(this.localExpanded, this.forceExpand, this.expandedDirs.indexOf(this.fullPath) !== -1)
+
+      return this.localExpanded || this.forceExpand
     }
   }
 }
