@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="font-sans overflow-scroll">
     <loader :show="loading"></loader>
 
     <tree :tree="tree"></tree>

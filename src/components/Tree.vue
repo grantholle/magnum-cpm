@@ -1,5 +1,5 @@
 <template>
-  <section class="font-light py-4">
+  <section class="font-light py-4 overflow-scroll h-full">
     <tree-item
       :item="tree"
       :force-expand="true"

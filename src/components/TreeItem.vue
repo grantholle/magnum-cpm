@@ -1,9 +1,21 @@
 <template>
-  <div class="pl-4">
+  <div>
     <div
-      @click="folderClick"
+      @click="itemClick"
       @contextmenu="folderContext"
+      class="tree-item py-1 hover:bg-grey-darkest text-sm cursor-pointer"
+      :style="leftPadding"
     >
+      <font-awesome-icon
+        v-if="isFile"
+        :icon="['far', 'file-code']"
+        class="mr-1 text-grey"
+      />
+      <font-awesome-icon
+        v-else
+        :icon="['far', expanded ? 'folder-open' : 'folder']"
+        class="mr-1 text-grey"
+      />
       {{ item.text }} {{ item.expanded }}
     </div>
 
@@ -13,6 +25,7 @@
         :key="subFolder.fullPath"
         :item="subFolder"
         :parent="`${parent}/${item.text}`"
+        :level="level + 1"
       ></tree-item>
 
       <tree-item
@@ -20,6 +33,8 @@
         :key="file.fullPath"
         :item="file"
         :parent="`${parent}/${item.text}`"
+        :level="level + 1"
+        :is-file="true"
       ></tree-item>
     </div>
   </div>
@@ -46,6 +61,14 @@ export default {
     forceExpand: {
       type: Boolean,
       default: false
+    },
+    level: {
+      type: Number,
+      default: 1
+    },
+    isFile: {
+      type: Boolean,
+      default: false
     }
   },
   data () {
@@ -60,7 +83,7 @@ export default {
     folderContext (event) {
       this.$emit('folderClicked', this.item)
     },
-    folderClick () {
+    itemClick () {
       this.localExpanded = !this.localExpanded
 
       this.expandFolder({
@@ -80,7 +103,17 @@ export default {
       // console.log(this.localExpanded, this.forceExpand, this.expandedDirs.indexOf(this.fullPath) !== -1)
 
       return this.localExpanded || this.forceExpand
+    },
+    leftPadding () {
+      return { 'padding-left': `${this.level}rem` }
     }
   }
 }
 </script>
+
+<style>
+.tree-item {
+  transition: all 250ms ease;
+}
+</style>
+
